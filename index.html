@@ -1,41 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>イラストギャラリーサイト</title>
-    <!-- ここにCSSファイルや他のメタデータを追加する場合があります -->
-    <link    rel="stylesheet"
-        href="css/style.css">
-    
+    <title>サイトのメニュー</title>
+    <style>
+        /* スタイルはCSSで指定します */
+        /* メニューの外側のコンテナ */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        /* メニュー項目 */
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* アクティブなメニュー項目 */
+        .navbar a.active {
+            background-color: #4CAF50;
+        }
+
+        /* メニュー項目にマウスホバーしたときのスタイル */
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>イラストギャラリーサイト</h1>
-        <!-- サイトのロゴやナビゲーションメニューを追加する場合があります -->
-    </header>
-    <main>
-        <section>
-            <h2>風景イラスト</h2>
-            <div class="gallery">
-                <!-- ここに風景イラストの画像やリンクを追加する -->
-                <img src="path_to_haikei.PNG" alt="水着1">
-                <img src="path_to_image2.jpg" alt="風景2">
-                <!-- 他の画像を追加する場合も同様に続けて記述 -->
-            </div>
-        </section>
-        <section>
-            <h2>キャラクターイラスト</h2>
-            <div class="gallery">
-                <!-- ここにキャラクターイラストの画像やリンクを追加する -->
-                <img src="path_to_image3.jpg" alt="キャラクター1">
-                <img src="path_to_image4.jpg" alt="キャラクター2">
-                <!-- 他の画像を追加する場合も同様に続けて記述 -->
-            </div>
-        </section>
-        <!-- 他のセクションを追加する場合も同様に続けて記述 -->
-    </main>
-    <footer>
-        <p>© 2023 noby. All rights reserved.</p>
-        <!-- その他のフッター情報やリンクを追加する場合があります -->
-    </footer>
+    <!-- メニューのHTMLコード -->
+    <div class="navbar">
+        <a class="active" href="#home">ホーム</a>
+        <a href="#about">会社概要</a>
+        <a href="#services">サービス</a>
+        <a href="#contact">お問い合わせ</a>
+    </div>
+
+    <!-- 他のコンテンツやページの内容はここに追加します -->
 </body>
 </html>
