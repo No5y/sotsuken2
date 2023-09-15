@@ -1,120 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-
-<link        rel="stylesheet"
-href="css/style.css">
-
-    
-    <title>A-project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>最高の瞬間</title>
     <style>
-        /* スタイルはCSSで指定します */
-        /* メニューの外側のコンテナ */
-        .navbar {
-            background-color: #333;
-            overflow: hidden;
+        body {
+            font-family: Arial, sans-serif;
         }
 
-        /* メニュー項目 */
-        .navbar a {
-            float: left;
-            display: block;
-            color: white;
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .gallery-item {
+            margin: 10px;
+            border: 1px solid #ddd;
+            padding: 10px;
             text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
         }
 
-        /* アクティブなメニュー項目 */
-        .navbar a.active {
-            background-color: #4CAF50;
+        .gallery-item img {
+            max-width: 100%;
+            height: auto;
         }
-
-        /* メニュー項目にマウスホバーしたときのスタイル */
-        .navbar a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-
-       
-
-            /* 他のスタイルを追加する場合はここに記述します */
-        }
-
-        /* 他の要素のスタイルを追加する場合はここに記述します */
-        background: linear-gradient(to bottom, #87CEFA, #FFC0CB);
-        
     </style>
-
-    
 </head>
 <body>
+    <h1>ギャラリーサイト</h1>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="イラスト1のURL" alt="イラスト1の説明">
+            <p>イラスト1の説明</p>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="イラスト2のURL" alt="イラスト2の説明">
+            <p>イラスト2の説明</p>
+        </div>
+        
+                <div class="gallery-item">
+            <img src="イラスト3" alt="イラスト3の説明">
+            <p>イラスト3の説明</p>
+        </div>        
+        
+            <div class="gallery-item">
+            <img src="イラスト4のURL" alt="イラスト4の説明">
+            <p>イラスト4の説明</p>
+        </div>       
 
-    
-    <!-- メニューのHTMLコード -->
-    <div class="navbar">
-        <a class="active" href="#home">ホーム</a>
-        <a href="#about">このサイトについて</a>
-        <a href="#sakuhinn">作品紹介</a>
-        <a href="#contact">コード紹介</a>
+            <div class="gallery-item">
+            <img src="イラスト5のURL" alt="イラスト5の説明">
+            <p>イラスト5の説明</p>
+        </div>      
+
+        
+    <!-- 他の画像をここに追加 -->
+        <p>自己紹介    筆者「N」</p>
     </div>
-
-    <!-- 他のコンテンツやページの内容はここに追加します -->
-
-    <a    href=#title">このサイトについて</a>
-    　　<h1>ここでは主に私の作品を使ったイラストレーションとUIデザインの交わりについて解説しています。</h1>
-        <h3>内容としては</h3>
-        <h2>①イラストの一部をクリックすると反応がある</h2>
-        <h2>②新たな試みによるイラスト提案
-        ...等を挙げます。</h2>
-
-
-
-    <a    href="#sakuhinn">作品紹介</a>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a href="#contact">コード紹介</a>    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 </body>
 </html>
